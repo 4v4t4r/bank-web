@@ -31,7 +31,7 @@
 			</div>
 
 			<div class="brand-centered">
-				<a class="navbar-brand" href="https://lockdown.ubnetdef.org/">Federal Bank</a>
+				<a class="navbar-brand" href="/">Federal Bank</a>
 			</div>
 
 			<div id="navbar" class="navbar-collapse collapse">
