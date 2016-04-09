@@ -1,6 +1,6 @@
 <?php
 # Required for formatting money
-setlocale(LC_MONETARY, 'en_US');
+setlocale(LC_MONETARY, 'en_US.UTF-8');
 
 # BANK INFO
 define('BANK_SERVER', '127.0.0.1:5000');
