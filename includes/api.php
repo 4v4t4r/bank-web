@@ -9,6 +9,9 @@ function api_request($endpoint, $data) {
 	curl_setopt($ch, CURLOPT_POSTFIELDS, implode('&', $postData));
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 15); 
+	curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+
 	$result = curl_exec($ch);
 
 	curl_close($ch);
